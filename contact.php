@@ -7,7 +7,7 @@ include('includes/db.php');
 
 // Receive Form Inputs
 if (isset($_POST['submit'])) {
-	$name = $_POST['name'];
+	$name = $_POST['fullname'];
 	$email = $_POST['email'];
 	$phone = $_POST['phone'];
 	$message = $_POST['message'];
